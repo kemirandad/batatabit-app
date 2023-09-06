@@ -17,6 +17,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     position: relative;
@@ -361,4 +362,80 @@ main{
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
+}
+
+/*Seccion de planes*/
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-bottom: 70px;
+}
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans--title h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.plans--title p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
+}
+.plans-container--slider{
+    width: 100%;
+    min-width: 263px;
+    max-height: 586px;
+    margin-top: 40px;
+}
+.plans-container--card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    margin: 50px auto;
+    padding: 0 15px;
+}
+.plans-container--card > p{
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    right: calc(50% - 50px);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: bold;
+}
+.plan-info-container .plan-card-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.plan-info-container .plan-card--price{
+    font-size: 5.3rem;
+    line-height: 6.3rem;
+    font-weight: bold;
+}
+.plan-container--card-content .coin{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: normal;
 }
